@@ -554,6 +554,36 @@ p {
   color: #888;
   margin-bottom: 30px;
 }
+.clients .citem .author-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 15px;
+}
+
+/* Fırat Akba için özel stil */
+.special-citem .author-img {
+  border: 3px solid #343a40; /* Koyu renkli çerçeve ekleyelim (örneğin, #343a40) */
+  background-color: #fff; /* Arka plan rengi beyaz olsun */
+}
+
+.clients .citem p {
+  word-spacing: 2px;
+}
+
+.clients .citem h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 30px 0 5px;
+}
+
+.clients .citem span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #888;
+  margin-bottom: 30px;
+}
 
 /* -------------------------------------------------------
                      Numbers 
